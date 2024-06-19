@@ -30,6 +30,10 @@ pygame.display.flip()
 clock = pygame.time.Clock()
 
 # Carregando musica ambiente no jogo
+pygame.mixer_music.load("./asset/soundsambience/475620__tyops__game-intro-space-futuristic.wav")
+pygame.mixer_music.play(-1)
+pygame.mixer_music.set_volume(0.3)
+
 
 print("ending setup")
 print("Loop starting")
